@@ -37,6 +37,7 @@ min-width: 80px;
 cursor: pointer ;
 border-radius: 50%;
 transition: 0.2s;
+overflow-x: scroll;
 
 }
 
@@ -60,4 +61,12 @@ transition: 0.2s;
 .explore-menu-list-item :active{
     border: 4px solid tomato ;
     padding: 2px;
+}
+
+
+@media (max-width: 1050px) {
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
 }
