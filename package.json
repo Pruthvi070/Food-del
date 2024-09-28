@@ -21,12 +21,18 @@
     },
     "rules": {
       "react/react-in-jsx-scope": "off",
-      "no-unused-vars": ["warn", { "varsIgnorePattern": "React" }]
+      "no-unused-vars": [
+        "warn",
+        {
+          "varsIgnorePattern": "React"
+        }
+      ]
     }
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
     "router-dom": "^2.2.11"
   },
   "devDependencies": {
