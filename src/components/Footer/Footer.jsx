@@ -23,7 +23,7 @@ const Footer = () => {
           <h2>COMPANY</h2>
           <li>Home</li>
           <li>About us</li>
-          <li>DeliVery</li>
+          <li>Delivery</li>
           <li>Privacy policy</li>
         </div>
         <div className="footer-content-right">
