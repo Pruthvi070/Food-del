@@ -27,7 +27,7 @@ const PalceOrder = () => {
       <div className="cart-total">
           <h2>Cart Totals</h2>
           <div>
-          <div className="cart-total-deetails">
+             <div className="cart-total-deetails">
               <p>Subtotal</p>
               <p>${getTotalCartAmount()}</p>
             </div>
